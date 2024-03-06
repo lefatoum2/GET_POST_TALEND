@@ -24,11 +24,7 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_LTSn8M9GEe6XkO59Zd1NQA - TB_CATEGORIE",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_LTSn8M9GEe6XkO59Zd1NQA - TB_SOUS_CATEGORIE",
+    "id" : "_LTSn8M9GEe6XkO59Zd1NQA - TB_PRODUIT",
     "version" : "Latest",
     "type" : "schema"
   } ]
