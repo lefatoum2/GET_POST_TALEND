@@ -1,0 +1,8 @@
+**/jobInfo.properties
+.JETEmitters/
+.Java/
+.metadata/
+PROJET_ESB_ADDA/code/routines/system/*.*
+PROJET_ESB_ADDA/temp/
+PROJET_ESB_ADDA/sqlPatterns/
+PROJET_ESB_ADDA/talend.project
