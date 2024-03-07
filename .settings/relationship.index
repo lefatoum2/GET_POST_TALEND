@@ -20,9 +20,17 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_EuZwoNwVEe6SBNVhVIGW3w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_LTSn8M9GEe6XkO59Zd1NQA",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_EuZwoNwVEe6SBNVhVIGW3w - tb_produit",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_LTSn8M9GEe6XkO59Zd1NQA - TB_PRODUIT",
     "version" : "Latest",

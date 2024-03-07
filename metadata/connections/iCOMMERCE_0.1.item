@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_RjyusNwVEe6SBNVhVIGW3w" name="iCOMMERCE" id="_EuZwoNwVEe6SBNVhVIGW3w" label="iCOMMERCE" dataPackage="_RkLJM9wVEe6SBNVhVIGW3w" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://localhost:3304/icommerce?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MARIADB" Port="3304" Username="root" Password="enc:system.encryption.key.v1:oUB2YnT6eeqgd8c//V1RlCtY174+b4aC4ctcDw5GdsE=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="icommerce" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_RjyusdwVEe6SBNVhVIGW3w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Rj6qgNwVEe6SBNVhVIGW3w" tag="package filter" value=""/>
+    <taggedValue xmi:id="_RkDNYNwVEe6SBNVhVIGW3w" tag="Status" value=""/>
+    <taggedValue xmi:id="_RkDNYdwVEe6SBNVhVIGW3w" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_RkDNYtwVEe6SBNVhVIGW3w" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_RkDNY9wVEe6SBNVhVIGW3w" tag="Description" value=""/>
+    <taggedValue xmi:id="_RkDNZNwVEe6SBNVhVIGW3w" tag="Author" value=""/>
+    <taggedValue xmi:id="_RkDNZdwVEe6SBNVhVIGW3w" tag="otherParameter"/>
+    <taggedValue xmi:id="_RkLJMNwVEe6SBNVhVIGW3w" tag="DB ProductName" value="MariaDB"/>
+    <taggedValue xmi:id="_RkLJMdwVEe6SBNVhVIGW3w" tag="DB ProductVersion" value="10.11.2-MariaDB"/>
+    <taggedValue xmi:id="_RkLJMtwVEe6SBNVhVIGW3w" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_RjyustwVEe6SBNVhVIGW3w" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_RkLJM9wVEe6SBNVhVIGW3w" name="icommerce" dataManager="_RjyusNwVEe6SBNVhVIGW3w">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_UDx_MdwVEe6SBNVhVIGW3w" name="tb_produit" id="_UDx_MNwVEe6SBNVhVIGW3w" label="tb_produit" tableType="TABLE">
+      <taggedValue xmi:id="_UDx_MtwVEe6SBNVhVIGW3w" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_UDx_M9wVEe6SBNVhVIGW3w" name="CD_PRODUIT" label="CD_PRODUIT" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_UDx_NNwVEe6SBNVhVIGW3w" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_UDx_NdwVEe6SBNVhVIGW3w" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_UDx_NtwVEe6SBNVhVIGW3w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_UDx_N9wVEe6SBNVhVIGW3w" name="NOM_PRODUIT" label="NOM_PRODUIT" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_UDx_ONwVEe6SBNVhVIGW3w" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_UDx_OdwVEe6SBNVhVIGW3w" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_UDx_OtwVEe6SBNVhVIGW3w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_UDx_O9wVEe6SBNVhVIGW3w" name="PRIX_ACHAT_PRODUIT" label="PRIX_ACHAT_PRODUIT" length="12" sourceType="FLOAT" talendType="id_Float">
+        <taggedValue xmi:id="_UDx_PNwVEe6SBNVhVIGW3w" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_UDx_PdwVEe6SBNVhVIGW3w" body="" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_UDx_PtwVEe6SBNVhVIGW3w" name="FLOAT" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_UDx_P9wVEe6SBNVhVIGW3w" name="PRIX_VENTE_PRODUIT" label="PRIX_VENTE_PRODUIT" length="12" sourceType="FLOAT" talendType="id_Float">
+        <taggedValue xmi:id="_UDx_QNwVEe6SBNVhVIGW3w" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_UDx_QdwVEe6SBNVhVIGW3w" body="" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_UDx_QtwVEe6SBNVhVIGW3w" name="FLOAT" numericPrecisionRadix="10" javaDataType="7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_UDx_Q9wVEe6SBNVhVIGW3w" name="CD_SOUS_CATEGORIE" label="CD_SOUS_CATEGORIE" length="50" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_UDx_RNwVEe6SBNVhVIGW3w" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_UDx_RdwVEe6SBNVhVIGW3w" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_UDx_RtwVEe6SBNVhVIGW3w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
